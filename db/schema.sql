@@ -16,5 +16,7 @@ CREATE TABLE recipes (
     protein TEXT ,
     carbohydrates TEXT,
     fat TEXT,
-    imageUrl TEXT
+    imageUrl TEXT,
+    category TEXT,
+    origin TEXT
 );
