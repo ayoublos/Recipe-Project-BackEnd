@@ -1,14 +1,14 @@
 const db = require("../db/db-config.js");
 
-// const getAllRecipes=async()=>{
-//     try {
-//         const allRecipes=await db.any("SELECT * FROM recipes ");
-//         console.log(allRecipes)
-//         return allRecipes;
-//     } catch (error) {
-//       return error;
-//     }
-// }
+const getAllRecipes=async()=>{
+    try {
+        const allRecipes=await db.any("SELECT * FROM recipes ");
+        console.log(allRecipes)
+        return allRecipes;
+    } catch (error) {
+      return error;
+    }
+}
 const getRecipe = async (id) => {
   try {
     const oneRecipe = await db.one("SELECT * FROM recipes WHERE id=$1", id);
@@ -56,4 +56,4 @@ const getRecipe = async (id) => {
 
 
 
-module.exports = {getRecipe};
+module.exports = {getRecipe,getAllRecipes};

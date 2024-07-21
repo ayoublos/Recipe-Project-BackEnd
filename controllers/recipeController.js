@@ -1,18 +1,18 @@
 // controllers/colorsController.js
 const express = require("express");
 const recipes = express.Router();
-const { getRecipe} = require("../queries/recipe");
+const { getRecipe,getAllRecipes} = require("../queries/recipe");
 // const { checkName,checkBoolean } = require("../validations/checkColors.js");
 
 // INDEX
-// recipes.get("/", async (req, res) => {
-//   const allRecipes = await getAllRecipes();
-//   if (allRecipes[0]) {
-//     res.status(200).json(allRecipes);
-//   } else {
-//     res.status(500).json({ error: "server error" });
-//   }
-// });
+recipes.get("/", async (req, res) => {
+  const allRecipes = await getAllRecipes();
+  if (allRecipes[0]) {
+    res.status(200).json(allRecipes);
+  } else {
+    res.status(500).json({ error: "server error" });
+  }
+});
 
 recipes.get("/:id", async (req, res) => {
   const { id } = req.params;
