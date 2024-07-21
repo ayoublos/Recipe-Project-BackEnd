@@ -15,7 +15,7 @@ app.use("/recipes", recipes);
 
 // ROUTES
 app.get("/", (req, res) => {
-  res.send("Welcome to Colors App");
+  res.send("Welcome to Recipes App");
 });
 // 404 PAGE
 app.get("*", (req, res) => {
