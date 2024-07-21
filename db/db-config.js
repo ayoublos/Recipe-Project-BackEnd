@@ -1,4 +1,3 @@
-// db/dbConfig.js
 const pgp = require("pg-promise")();
 require("dotenv").config();
 
