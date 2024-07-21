@@ -15,5 +15,6 @@ CREATE TABLE recipes (
     calories_per_serving INT ,
     protein TEXT ,
     carbohydrates TEXT,
-    fat TEXT
+    fat TEXT,
+    imageUrl TEXT
 );
