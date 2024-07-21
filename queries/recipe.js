@@ -30,17 +30,17 @@ const getRecipe = async (id) => {
 //     throw error;
 //   }
 // };
-// const deleteRecipe = async (id) => {
-//   try {
-//     const deletedRecipe = await db.one(
-//       "DELETE FROM recipes WHERE id = $1 RETURNING *",
-//       id
-//     );
-//     return deletedRecipe;
-//   } catch (error) {
-//     return error;
-//   }
-// };
+const deleteRecipe = async (id) => {
+  try {
+    const deletedRecipe = await db.one(
+      "DELETE FROM recipes WHERE id = $1 RETURNING *",
+      id
+    );
+    return deletedRecipe;
+  } catch (error) {
+    return error;
+  }
+};
 // const updateRecipe = async (id, recipe) => {
 //     const{name, ingredients, instructions, preparation_time, cooking_time, total_time, servings, calories_per_serving, protein, carbohydrates, fat}=recipe
 //   try {
@@ -56,4 +56,4 @@ const getRecipe = async (id) => {
 
 
 
-module.exports = {getRecipe,getAllRecipes};
+module.exports = {getRecipe,getAllRecipes,deleteRecipe};
