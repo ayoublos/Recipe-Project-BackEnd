@@ -41,19 +41,19 @@ const deleteRecipe = async (id) => {
     return error;
   }
 };
-// const updateRecipe = async (id, recipe) => {
-//     const{name, ingredients, instructions, preparation_time, cooking_time, total_time, servings, calories_per_serving, protein, carbohydrates, fat}=recipe
-//   try {
-//     const updatedRecipe = await db.one(
-//       "UPDATE colors SET name=$1, ingredients=$2 where id=$3 RETURNING *",
-//       [name, ingredients, instructions, preparation_time, cooking_time, total_time, servings, calories_per_serving, protein, carbohydrates, fat, id]
-//     );
-//     return updatedRecipe;
-//   } catch (error) {
-//     return error;
-//   }
-// };
+const updateRecipe = async (id, recipe) => {
+    const{name, ingredients, instructions, preparation_time, cooking_time, total_time, servings, calories_per_serving, protein, carbohydrates, fat}=recipe
+  try {
+    const updatedRecipe = await db.one(
+      "UPDATE recipes SET name=$1, ingredients=$2,instructions=$3, preparation_time=$4, cooking_time=$5, total_time=$6, servings=$7, calories_per_serving=$8, protein=$9, carbohydrates=$10, fat=$11  WHERE id=$12 RETURNING *",
+      [name, ingredients, instructions, preparation_time, cooking_time, total_time, servings, calories_per_serving, protein, carbohydrates, fat, id]
+    );
+    return updatedRecipe;
+  } catch (error) {
+    return error;
+  }
+};
 
 
 
-module.exports = {getRecipe,getAllRecipes,deleteRecipe,createRecipe};
+module.exports = {getRecipe,getAllRecipes,deleteRecipe,createRecipe,updateRecipe};

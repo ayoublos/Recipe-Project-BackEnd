@@ -1,7 +1,7 @@
 // controllers/colorsController.js
 const express = require("express");
 const recipes = express.Router();
-const { getRecipe,getAllRecipes, deleteRecipe, createRecipe} = require("../queries/recipe");
+const { getRecipe,getAllRecipes, deleteRecipe, createRecipe,updateRecipe} = require("../queries/recipe");
 // const { checkName,checkBoolean } = require("../validations/checkColors.js");
 
 // INDEX
@@ -39,9 +39,10 @@ recipes.delete("/:id", async (req, res) => {
     res.status(404).json("Color not found");
   }
 });
-// colors.put("/:id", async (req, res) => {
-//   const { id } = req.params;
-//   const updatedColor = await updateColor(id, req.body);
-//   res.status(200).json(updatedColor);
-// });
+recipes.put("/:id", async (req, res) => {
+    console.log(req.body)
+  const { id } = req.params;
+  const updatedRecipe = await updateRecipe(id, req.body);
+  res.status(200).json(updatedRecipe);
+});
 module.exports = recipes;
