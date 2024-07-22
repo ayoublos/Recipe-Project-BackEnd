@@ -72,8 +72,8 @@ VALUES
     '15g', 
     '10g',
     'https://www.saltandlavender.com/wp-content/uploads/2022/03/chicken-stir-fry-1.jpg',
-    'Stir-Fry',
-    'Asian'
+    'Main Courses',
+    'Chinese'
   ),
   (
     'Classic Beef Lasagna', 
@@ -176,7 +176,7 @@ VALUES
     '20g', 
     '7g',
     'https://sallysbakingaddiction.com/wp-content/uploads/2013/05/classic-chocolate-chip-cookies.jpg',
-    'Dessert',
+    'Desserts',
     'American'
   ),
   (
@@ -215,7 +215,7 @@ VALUES
     '50g', 
     '5g',
     'https://s23209.pcdn.co/wp-content/uploads/2022/10/211129_DAMN-DELICIOUS_Vegetarian-Chili_279.jpg',
-    'Soup',
+    'Vegetarian',
     'Mexican'
   ),
   (
@@ -249,6 +249,6 @@ VALUES
     '45g', 
     '18g',
     'https://cookieandkate.com/images/2021/07/classic-margherita-pizza.jpg',
-    'Pizza',
+    'Baking',
     'Italian'
   );
