@@ -11,8 +11,11 @@ INSERT INTO recipes (
   protein, 
   carbohydrates, 
   fat,
-  imageUrl
+  imageUrl,
+  category,
+  origin
 )
+
 VALUES 
   (
     'Spaghetti Carbonara', 
@@ -38,7 +41,9 @@ VALUES
     '20g', 
     '50g', 
     '15g',
-    'https://static01.nyt.com/images/2021/02/14/dining/carbonara-horizontal/carbonara-horizontal-square640-v2.jpg'
+    'https://static01.nyt.com/images/2021/02/14/dining/carbonara-horizontal/carbonara-horizontal-square640-v2.jpg',
+    'Main Courses',
+    'Italian'
   ),
   (
     'Chicken Stir-Fry', 
@@ -67,7 +72,9 @@ VALUES
     '30g', 
     '15g', 
     '10g',
-    'https://www.saltandlavender.com/wp-content/uploads/2022/03/chicken-stir-fry-1.jpg'
+    'https://www.saltandlavender.com/wp-content/uploads/2022/03/chicken-stir-fry-1.jpg',
+    'Main Courses',
+    'Chinese'
   ),
   (
     'Classic Beef Lasagna', 
@@ -102,7 +109,9 @@ VALUES
     '35g', 
     '40g', 
     '20g',
-    'https://www.recipegirl.com/wp-content/uploads/2021/04/Classic-Beef-Lasagna-8.jpeg'
+    'https://www.recipegirl.com/wp-content/uploads/2021/04/Classic-Beef-Lasagna-8.jpeg',
+    'Main Courses',
+    'Italian'
   ),
   (
     'Caesar Salad', 
@@ -132,7 +141,9 @@ VALUES
     '8g', 
     '15g', 
     '18g',
-    'https://natashaskitchen.com/wp-content/uploads/2019/01/Caesar-Salad-Recipe-3.jpg'
+    'https://natashaskitchen.com/wp-content/uploads/2019/01/Caesar-Salad-Recipe-3.jpg',
+    'Salads',
+    'Italian'
   ),
   (
     'Chocolate Chip Cookies', 
@@ -165,7 +176,9 @@ VALUES
     '2g', 
     '20g', 
     '7g',
-    'https://sallysbakingaddiction.com/wp-content/uploads/2013/05/classic-chocolate-chip-cookies.jpg'
+    'https://sallysbakingaddiction.com/wp-content/uploads/2013/05/classic-chocolate-chip-cookies.jpg',
+    'Baking',
+    'American'
   ),
   (
     'Vegetarian Chili', 
@@ -202,7 +215,9 @@ VALUES
     '12g', 
     '50g', 
     '5g',
-    'https://s23209.pcdn.co/wp-content/uploads/2022/10/211129_DAMN-DELICIOUS_Vegetarian-Chili_279.jpg'
+    'https://s23209.pcdn.co/wp-content/uploads/2022/10/211129_DAMN-DELICIOUS_Vegetarian-Chili_279.jpg',
+    'Vegetarian',
+    'American'
   ),
   (
     'Margherita Pizza', 
@@ -234,5 +249,7 @@ VALUES
     '15g', 
     '45g', 
     '18g',
-    'https://cookieandkate.com/images/2021/07/classic-margherita-pizza.jpg'
+    'https://cookieandkate.com/images/2021/07/classic-margherita-pizza.jpg',
+    'Italian',
+    'Main Courses'
   );
