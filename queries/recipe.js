@@ -32,7 +32,7 @@ const createRecipe = async (recipe) => {
     protein,
     carbohydrates,
     fat,
-    imageUrl,
+    imageurl,
     category,
     origin,
   } = recipe;
@@ -52,7 +52,7 @@ const createRecipe = async (recipe) => {
         protein,
         carbohydrates,
         fat,
-        imageUrl,
+        imageurl,
         category,
         origin,
       ]
@@ -88,7 +88,7 @@ const updateRecipe = async (id, recipe) => {
     protein,
     carbohydrates,
     fat,
-    imageUrl,
+    imageurl,
     category,
     origin,
   } = recipe;
@@ -108,7 +108,7 @@ const updateRecipe = async (id, recipe) => {
         protein,
         carbohydrates,
         fat,
-        imageUrl,
+        imageurl,
         category,
         origin,
         id,

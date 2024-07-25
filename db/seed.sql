@@ -11,7 +11,7 @@ INSERT INTO recipes (
   protein, 
   carbohydrates, 
   fat,
-  imageUrl,
+  imageurl,
   category,
   origin
 )
