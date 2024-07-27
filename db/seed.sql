@@ -376,7 +376,7 @@ VALUES
     '20g', 
     '30g', 
     '8g',
-    'https://www.cookingclassy.com/wp-content/uploads/2019/04/shrimp-tacos-1-500x500.jpg',
+    'https://www.wellplated.com/wp-content/uploads/2018/04/Healthy-Shrimp-Tacos-with-Shrimp-Taco-Sauce.jpg',
     'Seafood',
     'Mexican'
   ),
@@ -392,7 +392,7 @@ VALUES
     '30g', 
     '25g', 
     '20g',
-    'https://www.simplyrecipes.com/thmb/xNFXADmB-zfgKKO3rA9Gfdmu_pQ=/2000x1500/filters:fill(auto,1)/Simply-Recipes-Beef-Stroganoff-LEAD-6-0b8bd0b6c6d1426798e4c7e91b14ef26.jpg',
+    'https://www.allrecipes.com/thmb/mSWde3PHTu-fDkbvWBw0D1JlS8U=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/25202beef-stroganoff-iii-ddmfs-3x4-233-0f26fa477e9c446b970a32502468efc6.jpg',
     'Main Courses',
     'Russian'
   ),
@@ -408,7 +408,7 @@ VALUES
     '18g', 
     '20g', 
     '5g',
-    'https://www.recipetineats.com/wp-content/uploads/2019/03/Tom-Yum-Soup_2.jpg',
+    'https://hot-thai-kitchen.com/wp-content/uploads/2013/03/tom-yum-goong-blog.jpg',
     'Soups',
     'Thai'
   ),
@@ -425,7 +425,7 @@ VALUES
     '6g', 
     '35g', 
     '8g',
-    'https://www.justonecookbook.com/wp-content/uploads/2020/06/California-Roll-768x1152.jpg',
+    'https://www.heinens.com/content/uploads/2023/06/Tuna-Sushi-Rolls-800x550-1.jpg',
     'Seafood',
     'Japanese'
   ),
@@ -441,7 +441,7 @@ VALUES
     '25g', 
     '10g', 
     '20g',
-    'https://cafedelites.com/wp-content/uploads/2022/08/Chicken-Curry-2-4.jpg',
+    'https://www.allrecipes.com/thmb/FL-xnyAllLyHcKdkjUZkotVlHR8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/46822-indian-chicken-curry-ii-DDMFS-4x3-39160aaa95674ee395b9d4609e3b0988.jpg',
     'Main Courses',
     'Indian'
   ),
@@ -457,7 +457,7 @@ VALUES
     '4g', 
     '25g', 
     '5g',
-    'https://www.recipetineats.com/wp-content/uploads/2017/06/Fluffy-Pancakes_5-SQ.jpg',
+    'https://www.allrecipes.com/thmb/WqWggh6NwG-r8PoeA3OfW908FUY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/21014-Good-old-Fashioned-Pancakes-mfs_001-1fa26bcdedc345f182537d95b6cf92d8.jpg',
     'Breakfast',
     'American'
   ),
@@ -473,7 +473,7 @@ VALUES
     '20g', 
     '50g', 
     '15g',
-    'https://www.recipetineats.com/wp-content/uploads/2018/03/Pad-Thai_0.jpg',
+    'https://www.recipetineats.com/tachyon/2020/01/Chicken-Pad-Thai_9-SQ.jpg',
     'Main Courses',
     'Thai'
   ),
@@ -489,7 +489,7 @@ VALUES
     '10g', 
     '30g', 
     '10g',
-    'https://www.recipetineats.com/wp-content/uploads/2018/06/Falafel_9.jpg',
+    'https://feelgoodfoodie.net/wp-content/uploads/2024/03/Falafel-TIMG.jpg',
     'Vegetarian',
     'Middle Eastern'
   ),
@@ -505,7 +505,7 @@ VALUES
     '15g', 
     '50g', 
     '20g',
-    'https://www.recipetineats.com/wp-content/uploads/2018/06/Clam-Chowder_5.jpg',
+    'https://thecozycook.com/wp-content/uploads/2022/10/Clam-Chowder-f.jpg',
     'Soups',
     'American'
   );
